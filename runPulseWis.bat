@@ -6,4 +6,4 @@ echo Listening on %WIS_HTTP_PORT%
   -cfgName PulseWis ^
   -enableKeepAlive yes ^
   -listeningPorts %WIS_HTTP_PORT% ^
-  -documentRoot webroot
+  -documentRoot examples

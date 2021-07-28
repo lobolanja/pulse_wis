@@ -21,7 +21,7 @@ with rti.open_connector("MyParticipantLibrary::MyPubParticipant", 'pulse.xml') a
 
         output.write()
         print(f"  wrote bpm: {bpm} ts: {i}")
-        sleep(0.1)
+        sleep(0.5)
 
     print("Exiting...")
     output.wait() # Wait for all subscriptions to receive the data before exiting

@@ -16,5 +16,5 @@ $NDDSHOME/bin/rtiwebintegrationservice \
   -enableKeepAlive yes \
   -listeningPorts 8090 \
   -enableWebSockets \
-  -documentRoot webrootws &
+  -documentRoot examples &
 

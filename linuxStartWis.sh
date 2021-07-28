@@ -7,5 +7,5 @@ then
 fi
 echo "Starting WIS"
 export NDDS_QOS_PROFILES=file://$PULSE_DEMO_HOME/pulse_sysdesigner/MedicalDemo.xml
-$NDDSHOME/bin/rtiwebintegrationservice -cfgName PulseWis -enableKeepAlive yes -listeningPorts 8090 -documentRoot webroot &
+$NDDSHOME/bin/rtiwebintegrationservice -cfgName PulseWis -enableKeepAlive yes -listeningPorts 8090 -documentRoot examples &
 

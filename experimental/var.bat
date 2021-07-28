@@ -69,6 +69,6 @@ ECHO Listening on %WIS_HTTP_PORT%
   -cfgFile %WIS_XML% -cfgName PulseWis ^
   -enableKeepAlive yes ^
   -listeningPorts %WIS_HTTP_PORT% ^
-  -documentRoot webroot
+  -documentRoot examples
 
 ENDLOCAL

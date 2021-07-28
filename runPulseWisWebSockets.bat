@@ -14,4 +14,4 @@ ECHO %NDDSHOME%
   -verbosity 6 ^
   -enableKeepAlive yes ^
   -listeningPorts %WIS_HTTP_PORT% ^
-  -documentRoot webrootws
+  -documentRoot examples
